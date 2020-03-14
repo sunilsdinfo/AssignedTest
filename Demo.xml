@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DemoTest" verbose="1" >
+  <test name="testngTest" >
+    <classes>
+       <class name="Assignment.Demo.PriceCheck">
+        <methods>
+        <include name="gettingIphonePriceFromAmazon" />
+        <include name="gettingIphonePriceFromFlipkart" />
+        <exclude name="comparingIphonePriceAndDisplyingResult" />
+      </methods>
+       </class>
+    </classes>
+  </test>
+</suite>
